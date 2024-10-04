@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+    margin: 0px 112px;
+    padding: 40px 0.5px 13px;
+    transition: all 0.3s ease;
+}
+
+.header .logo a{
+    font-size: 30px;
+    font-weight: 900;
+    color: #000;
+    cursor: pointer;
+}
+
+.header .logo a span{
+    color: #FF5733;
+}
+
+.header .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.header .nav li{
+    list-style: none;
+}
+
+.header .nav li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+.header .nav li a:hover{
+    color: #FF5733;
+    border-bottom: 1px solid #FF5733;
+}
+
+.header .nav li .call{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

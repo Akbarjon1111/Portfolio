@@ -1,0 +1,72 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 114px;
+  margin: 0px 171px;
+}
+
+.service-header {
+  text-align: center;
+  padding: 80px 144px;
+}
+
+.service-header h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 4px;
+  color: #ff5e69;
+}
+
+.service-header h1 {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 59.4px;
+  letter-spacing: 1px;
+  color: #000;
+  padding-top: 16px;
+}
+
+.service-carts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 90px;
+  padding-bottom: 80px;
+}
+
+.service-carts .cart h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26.4px;
+  color: #000;
+  padding-top: 40px;
+}
+
+.service-carts .cart p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #666666;
+  padding-top: 25px;
+}
+
+.service-carts .cart ul {
+  padding-left: 16px;
+  padding-top: 21px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.service-carts .cart ul li {
+  list-style: square;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #000;
+}

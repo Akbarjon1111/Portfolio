@@ -1,0 +1,19 @@
+.brands {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  padding: 77px 289px;
+}
+
+.brands .brand-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.brands .brand-logo img {
+  cursor: pointer;
+}

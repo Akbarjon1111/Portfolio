@@ -1,0 +1,64 @@
+.faq {
+  background: #000;
+}
+
+.faq-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 112px;
+}
+
+.faq-header h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 4px;
+  color: #ff8a56;
+  padding-top: 82px;
+}
+
+.faq-header h1 {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 59.4px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.faq-cart {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 120px 150px;
+  color: #fff;
+}
+
+.faq-cart .cart1 {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+}
+
+.faq-cart .cart1 .cart2 {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  border-bottom: 1px solid #e5e5e530;
+  padding-bottom: 51px;
+}
+
+.faq-cart .cart1 .cart2 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.2px;
+  letter-spacing: 0.30000001192092896px;
+  color: #fff;
+}
+
+.faq-cart .cart1 .cart2 .down-icon{
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}

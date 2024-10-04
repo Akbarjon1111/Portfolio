@@ -1,0 +1,112 @@
+.projects .project-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 130px;
+  gap: 470px;
+}
+
+.project-info .info h2 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 4px;
+  color: #b16cea;
+}
+
+.project-info .info h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 59.4px;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.project-info .btn button {
+  width: 201px;
+  height: 58px;
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  transition: all 0.3s ease;
+}
+
+.project-info .btn button:hover {
+  background: none;
+  color: #000;
+}
+
+.projects .project-carts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  padding: 65px 113px;
+}
+
+.projects .project-carts .carts .cart-img img {
+  width: 400px;
+  height: 250px;
+}
+
+.projects .project-carts .carts .cart-info {
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cart-info h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 4px;
+  color: #3c46ff;
+}
+
+.cart-info h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26.4px;
+  color: #000;
+}
+
+.cart-info a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.left-right{
+    display: flex;
+    align-items: center;
+    padding-left: 1213px;
+    gap: 10px;
+}
+
+.left-right button{
+    width: 54px;
+    height: 54px;
+    background: none;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.left-right button:hover{
+    background: #000;
+    color: #fff;
+}
